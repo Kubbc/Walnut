@@ -1,0 +1,105 @@
+html, body {
+  background-color: rgb(124, 124, 124);
+}
+
+
+.loginContainer {
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  width: 20%;
+  height: 40%;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.loginBox {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 25px;
+
+  border-style: solid;
+  border-color: rgb(119, 58, 58);
+  border-width: 5px;
+  border-radius: 10px;
+
+  user-select: none;
+}
+
+.loginBox::placeholder {
+  color: black !important;
+  opacity: 0.8;
+  user-select: none;
+}
+
+.loginBtn {
+  position: relative;
+  background-color: rgb(139, 203, 255);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 33%;
+  height: 30px;
+
+  cursor: pointer;
+  user-select: none;
+}
+
+.loginBtn:hover {
+  background-color: rgb(123, 179, 225);
+}
+
+.loginBtn:active {
+  background-color: rgb(98, 160, 211);
+}
+
+
+.logoContainer {
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:30%;
+  height: 13%;
+  padding: 10px;
+  gap: 20px;
+
+  user-select: none;
+}
+
+.logoImg {
+  image-rendering: pixelated;
+  height: 5vw;
+  margin: 0;
+  padding: 0;
+  -webkit-user-drag: none;
+}
+
+.logoText {
+  font-size: 5vw;
+  color: rgb(108, 54, 54);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

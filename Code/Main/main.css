@@ -1,0 +1,93 @@
+html, body {
+  background-color: white;
+}
+
+.mainContainer {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1200px;
+  transform: translate(-50%, 0);
+}
+
+.logoutBtn {
+  background-color: rgb(117, 71, 61);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+  width: 60px;
+  padding: 0 20px;
+  margin-left: 5px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20px;
+
+  position: fixed;
+  right: 0;
+  top: 10px;
+
+
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+
+.logoutBtn:hover {
+  background-color: rgb(95, 55, 47);
+}
+
+.leftMenu {
+  background-color: transparent;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  top: 20px;
+  bottom: 20px;
+  left: 0;
+  width: 250px;
+
+  user-select: none;
+}
+
+.iconBtn {
+  background-color: transparent;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 20px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 20px;
+
+
+  -webkit-user-drag: none;
+  cursor: pointer;
+}
+
+.iconBtn:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+
+.icons {
+  image-rendering: crisp-edges;
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+
+  -webkit-user-drag: none;
+}
