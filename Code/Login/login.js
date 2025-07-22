@@ -21,7 +21,7 @@ document.querySelectorAll('.loginBtn')[0].addEventListener('click', () => {
   const password = document.querySelectorAll('.loginBox')[1].value;
 
   signInWithEmailAndPassword(auth, email, password)
-    .then(() => window.location.href = "/Code/Main/home.html")
+    .then(() => window.location.href = "../../Code/Main/home.html")
     .catch((error) => alert("Login failed: " + error.message));
 });
 
@@ -31,6 +31,6 @@ document.querySelectorAll('.loginBtn')[1].addEventListener('click', () => {
   const password = document.querySelectorAll('.loginBox')[1].value;
 
   createUserWithEmailAndPassword(auth, email, password)
-    .then(() => window.location.href = "/Code/Main/home.html")
+    .then(() => window.location.href = "../../Code/Main/home.html")
     .catch((error) => alert("Signup failed: " + error.message));
 });

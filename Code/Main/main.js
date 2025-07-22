@@ -20,7 +20,7 @@ const auth = getAuth(app);
 // Logout button functionality
 document.getElementById("logoutBtn").addEventListener("click", () => {
   signOut(auth).then(() => {
-    window.location.href = "/Code/Login/login.html"; // Adjust if needed
+    window.location.href = "../../Code/Login/login.html"; // Adjust if needed
   }).catch((error) => {
     console.error("Error during sign-out:", error.message);
   });
